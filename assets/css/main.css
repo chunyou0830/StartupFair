@@ -707,10 +707,10 @@
 		.grid.w2 {
 			width: 50%;
 			float: left;
-			/*padding: 0 0 0 0.75rem;*/
+			padding: 0 0 0 0.75rem;
 		}
 		.grid.w2.first {
-			/*padding: 0 0.75rem 0 0;*/
+			padding: 0;
 		}
 
 		.grid.w4 {
@@ -725,25 +725,25 @@
 	@media screen and (max-width: 736px) {
 
 		.grid {
-			/*margin: 0 0 1.125rem 0;*/
+			margin: 0 0 1.125rem 0;
 			margin: 0;
 		}
 			.grid.w2 {
 				width: 50%;
 				float: left;
-				/*padding: 0 0 0 0.5625rem;*/
+				padding: 0 0 0 0.5625rem;
 			}
 			.grid.w2.first {
-				/*padding: 0 0.5625rem 0 0;*/
+				padding: 0;
 			}
 
 			.grid.w4 {
 				width: 50%;
 				float: left;
-				/*padding: 0 0 0 0.5625rem;*/
+				padding: 0 0 0 0.5625rem;
 			}
 			.grid.w4.first {
-				/*padding: 0 0.5625rem 0 0;*/
+				padding: 0;
 			}
 
 	}
