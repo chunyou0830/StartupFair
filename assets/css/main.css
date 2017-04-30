@@ -716,10 +716,10 @@
 		.grid.w4 {
 			width: 25%;
 			float: left;
-			/*padding: 0 0 0 0.75rem;*/
+			padding: 0 0 0 0.75rem;
 		}
 		.grid.w4.first {
-			/*padding: 0 0.75rem 0 0;*/
+			padding: 0 0 0 0;
 		}
 
 	@media screen and (max-width: 736px) {
