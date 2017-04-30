@@ -751,24 +751,24 @@
 	@media screen and (max-width: 480px) {
 
 		.grid {
-			margin: 0 0 1.125rem 0;
+			margin: 0 0 1rem 0;
 		}
 			.grid.w2 {
 				width: 50%;
 				float: left;
-				padding: 0;
+				padding: 0 0 0 0.2rem;
 			}
 			.grid.w2.first {
-				padding: 0;
+				padding: 0 0 0 0.2rem;
 			}
 
 			.grid.w4 {
 				width: 50%;
 				float: left;
-				padding: 0;
+				padding: 0 0 0 0.2rem;
 			}
 			.grid.w4.first {
-				padding: 0;
+				padding: 0 0 0 0.2rem;
 			}
 
 	}
