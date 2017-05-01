@@ -611,7 +611,7 @@
 			-ms-pointer-events: none;
 			pointer-events: none;
 			/*background-image: url("../../images/overlay.png");*/
-			background-color: rgba(19, 21, 25, 0.5);
+			/*background-color: rgba(19, 21, 25, 0.5);*/
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -696,18 +696,33 @@
 		pointer-events: none;
 	}
 
+
+/* Organization Title */
+
+	.orgtitle {
+		font-size: 0.85rem !important;
+		line-height: 1 !important;
+		margin: 0 0 1rem 0 !important;
+	}
+
+
 /* Self-made Grid */
 
+
+	.top-border {
+		border-top: 1px;
+		border-color: white;
+		border-style: solid;
+	}
 
 	.grid {
 		/*margin: 0 0 2.5rem 0;*/
 		margin: 0;
-		font-size: 0.75rem !important;
 	}
 		.grid.w2 {
 			width: 50%;
 			float: left;
-			padding: 0 0 0 0.75rem;
+			padding: 1rem 0 1rem 0.75rem;
 		}
 		.grid.w2.first {
 			padding: 0;
@@ -716,10 +731,19 @@
 		.grid.w4 {
 			width: 25%;
 			float: left;
-			padding: 0 0 0 0.75rem;
+			padding: 1rem 0 1rem 0.75rem;
 		}
 		.grid.w4.first {
-			padding: 0 0 0 0;
+			padding: 1rem 0 1rem 0;
+		}
+
+		.grid.w4x3 {
+			width: 75%;
+			float: left;
+			padding: 1rem 0 1rem 0.75rem;
+		}
+		.grid.w4x3.first {
+			padding: 1rem 0 1rem 0;
 		}
 
 	@media screen and (max-width: 736px) {
@@ -731,7 +755,7 @@
 			.grid.w2 {
 				width: 50%;
 				float: left;
-				padding: 0 0 0 0.5625rem;
+				padding: 0.5rem 0 0.5rem 0.5625rem;
 			}
 			.grid.w2.first {
 				padding: 0;
@@ -740,10 +764,38 @@
 			.grid.w4 {
 				width: 50%;
 				float: left;
-				padding: 0 0 0 0.5625rem;
+				padding: 0.5rem 0 0.5rem 0.5625rem;
 			}
 			.grid.w4.first {
-				padding: 0;
+				padding: 0.5rem 0 0.5rem 0;
+			}
+
+			.grid.w4.grid-wide {
+				width: 100%;
+				float: left;
+				padding: 0.5rem 0 0.5rem 0.5625rem;
+			}
+			.grid.w4.grid-wide.first {
+				padding: 0.5rem 0 0.5rem 0;
+			}
+
+			.grid.w4x3 {
+				width: 50%;
+				float: left;
+				padding: 0.5rem 0 0.5rem 0.5625rem;
+			}
+			.grid.w4x3.first {
+				padding: 0.5rem 0 0.5rem 0;
+			}
+
+			.grid.w4x3.grid-wide {
+				width: 100%;
+				float: left;
+				padding: 0.5rem 0 0.5rem 0.5625rem;
+				border-top: 0px !important;
+			}
+			.grid.w4x3.grid-wide.first {
+				padding: 0.5rem 0 0.5rem 0;
 			}
 
 	}
@@ -756,19 +808,47 @@
 			.grid.w2 {
 				width: 50%;
 				float: left;
-				padding: 0 0 0 0.2rem;
+				padding: 0.2rem 0 0.2rem 0.2rem;
 			}
 			.grid.w2.first {
-				padding: 0 0 0 0.2rem;
+				padding: 0.2rem 0 0.2rem 0.2rem;
 			}
 
 			.grid.w4 {
 				width: 50%;
 				float: left;
-				padding: 0 0 0 0.2rem;
+				padding: 0.2rem 0 0.2rem 0.2rem;
 			}
 			.grid.w4.first {
-				padding: 0 0 0 0.2rem;
+				padding: 0.2rem 0 0.2rem 0.2rem;
+			}
+
+			.grid.w4.grid-wide {
+				width: 100%;
+				float: left;
+				padding: 0.2rem 0 0.2rem 0.2rem;
+			}
+			.grid.w4.grid-wide.first {
+				padding: 0.2rem 0 0.2rem 0.2rem;
+			}
+
+			.grid.w4x3 {
+				width: 50%;
+				float: left;
+				padding: 0.2rem 0 0.2rem 0.2rem;
+			}
+			.grid.w4x3.first {
+				padding: 0.2rem 0 0.2rem 0.2rem;
+			}
+
+			.grid.w4x3.grid-wide {
+				width: 100%;
+				float: left;
+				padding: 0.2rem 0 0.2rem 0.2rem;
+				border-top: 0px !important;
+			}
+			.grid.w4x3.grid-wide.first {
+				padding: 0.2rem 0 0.2rem 0.2rem;
 			}
 
 	}
@@ -1166,7 +1246,7 @@
 			-webkit-transition-delay: 0.25s;
 			-ms-transition-delay: 0.25s;
 			transition-delay: 0.25s;
-			/*background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");*/
+			/*background-image: linear-gradient(to top, rgba(19, 21, 25, 0), rgba(19, 21, 25, 0)), url("../../images/overlay.png");*/
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1278,10 +1358,10 @@
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		/*background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);*/
+		/*background-image: -moz-radial-gradient(rgba(0, 0, 0, 0) 25%, transparent 55%);
+		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0) 25%, transparent 55%);
+		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0) 25%, transparent 55%);
+		background-image: radial-gradient(rgba(0, 0, 0, 0) 25%, transparent 55%);*/
 		max-width: 100%;
 		text-align: center;
 		color: rgb(51,51,51)!important;
