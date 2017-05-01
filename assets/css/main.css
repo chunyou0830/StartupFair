@@ -725,7 +725,7 @@
 			padding: 1rem 0 1rem 0.75rem;
 		}
 		.grid.w2.first {
-			padding: 1rem 0 1rem 0;
+			/*padding: 1rem 0 1rem 0;*/
 		}
 
 		.grid.w4 {
@@ -734,7 +734,7 @@
 			padding: 1rem 0 1rem 0.75rem;
 		}
 		.grid.w4.first {
-			padding: 1rem 0 1rem 0;
+			/*padding: 1rem 0 1rem 0;*/
 		}
 
 		.grid.w4x3 {
@@ -743,7 +743,7 @@
 			padding: 1rem 0 1rem 0.75rem;
 		}
 		.grid.w4x3.first {
-			padding: 1rem 0 1rem 0;
+			/*padding: 1rem 0 1rem 0;*/
 		}
 
 	@media screen and (max-width: 736px) {
@@ -767,7 +767,7 @@
 				padding: 0.5rem 0 0.5rem 0.5625rem;
 			}
 			.grid.w4.first {
-				padding: 0.5rem 0 0.5rem 0;
+				/*padding: 0.5rem 0 0.5rem 0;*/
 			}
 
 			.grid.w4.grid-wide {
@@ -776,7 +776,7 @@
 				padding: 0.5rem 0 0.5rem 0.5625rem;
 			}
 			.grid.w4.grid-wide.first {
-				padding: 0.5rem 0 0.5rem 0;
+				/*padding: 0.5rem 0 0.5rem 0;*/
 			}
 
 			.grid.w4x3 {
@@ -785,7 +785,7 @@
 				padding: 0.5rem 0 0.5rem 0.5625rem;
 			}
 			.grid.w4x3.first {
-				padding: 0.5rem 0 0.5rem 0;
+				/*padding: 0.5rem 0 0.5rem 0;*/
 			}
 
 			.grid.w4x3.grid-wide {
@@ -795,7 +795,7 @@
 				border-top: 0px !important;
 			}
 			.grid.w4x3.grid-wide.first {
-				padding: 0.5rem 0 0.5rem 0;
+				/*padding: 0.5rem 0 0.5rem 0;*/
 			}
 
 	}
